@@ -14,6 +14,4 @@ Otherwise you can directly clone this repo:
 git clone https://github.com/reactbricks/nextjs-starter-reactbricks-tailwind your-project
 ```
 
- 📖 Documentation
-
-Please, read our documentation at [Reactbricks.com](https://reactbricks.com).
+ 
