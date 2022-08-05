@@ -10,8 +10,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export" : "yarn run build && next export && mv out _static"
-    "predeploy" : "yarn run build";
+    "export" : "yarn run build && next export && mv out _static",
+    "predeploy" : "yarn run build",
     "deploy" : "gh-pages -d build"
   },
   "engines" : {
