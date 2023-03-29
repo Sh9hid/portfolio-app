@@ -4,20 +4,20 @@
   "license": "MIT",
   "version": "1.3.6",
   "author": "",
-  "homepage" : "hhtp://Sh9hid.github.io/portfolio-app/",
-  
+  "homepage": "hhtp://Sh9hid.github.io/portfolio-app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export" : "yarn run build && next export && mv out _static",
-    "predeploy" : "yarn run build",
-    "deploy" : "gh-pages -d build"
+    "export": "yarn run build && next export && mv out _static",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
-  "engines" : {
+  "engines": {
     "node": "14.x"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "next": "^12.2.2",
     "prism-theme-night-owl": "^1.4.0",
     "prismjs": "^1.28.0",
